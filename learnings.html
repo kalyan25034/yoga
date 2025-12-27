@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>YOGIC - let's live life to it's fullest</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <h1 class ="heading">YOGIC</h1>
+                <div class="nav-links" id="navLinks">
+                  <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSES</a></li>
+                        <li><a href="learnings.html">LEARNINGS</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Learnings and Certifications </h1>
+        </section>
+<!-----Learnings---------->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/yoga-certification.jpg">
+            <h2>Learnings and Certifications</h2>
+            <p>By embracing the opportunities provided by certifications and courses on our YOGIC, you embark on a transformative journey of self-discovery, growth, and empowerment. Whether you seek personal enrichment or professional advancement, the benefits of deepening your knowledge, refining your skills, and connecting with a supportive community are immeasurable. Allow yourself to explore the vast potential of yoga education, and witness the positive impact it brings to your life and the lives of those around you.</p>
+            <br><p>By pursuing certifications and engaging in specialized learning programs, you open yourself up to a world of incredible benefits that can positively impact both your personal practice and your professional aspirations. Let us explore the key advantages that await you on this enlightening path.
+            <br><p>Refining Technique and Skill: Continuing education in yoga ensures that you continually refine and advance your own practice. Courses often focus on specific aspects such as alignment, sequencing, adjustments, or specialized styles, enabling you to hone your skills and perfect your techniques. This heightened level of mastery brings refinement, precision, and grace to your practice, allowing you to derive more profound physical, mental, and spiritual benefits.</p>
+            <br><p>Cultivating Self-Discovery and Personal Growth: Yoga is not merely a physical discipline but a holistic path of self-discovery and personal growth. Certifications and courses provide a supportive environment that encourages introspection, self-reflection, and self-awareness. By exploring various yogic practices, meditation techniques, and introspective exercises, you embark on a transformative journey of self-exploration, helping you uncover hidden potentials, develop inner strength, and nurture a deeper connection with yourself and the world around you.</p>
+            <br><p>Building a Supportive Community: Pursuing certifications and courses often brings you into contact with like-minded individuals who share your passion for yoga. These educational journeys foster a sense of community and connection, enabling you to network with fellow students, experienced teachers, and mentors. This community becomes a valuable source of inspiration, collaboration, and ongoing support, nurturing your growth as a yogi and providing lifelong friendships.</p>
+            <br><p>Nurturing a Healthier Lifestyle: As you immerse yourself in the world of yoga education, you cultivate a deep appreciation for holistic well-being and a healthier lifestyle. Certifications and courses emphasize not only the physical aspects of yoga but also its impact on mental and emotional well-being. Through a comprehensive understanding of yogic practices, you'll discover tools for stress management, improved mindfulness, and enhanced overall wellness, enabling you to live a more balanced, purposeful, and fulfilling life.</p>
+            <br><p>Deepening Knowledge and Understanding: Certifications and courses provide an invaluable opportunity to delve deeper into the vast and profound wisdom of yoga. Through comprehensive curriculum and expert guidance, you'll gain a more profound understanding of the philosophy, history, anatomy, and principles that underpin this ancient practice. This expanded knowledge not only enriches your personal practice but also equips you with a solid foundation to share yoga's transformative teachings with others.</p>
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter your Email">
+                    <textarea rows="5" placeholder="Your comment"></textarea>
+                    <button type="submit" class="text-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>   
+        </div>
+        
+    </div>
+</section>
+<!--------about us content----->
+<!--------------course--------->
+<!-----------facilities-------->
+<!---------------testimonials-------->
+<!----------call to action---->
+<!---------footer-------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>YOGIC is a online yoga learning and teaching platform whch was founded by enthusiastic young mind of BNYS.The main purpose of this intiative is to wide spread knowledge of yoga and <br>its health benifits with the motto of SARVE JANA SUKHINO BAVANATHU .</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-envelope"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Vishnu Vardhan Vasireddi</p>
+</section>
+<!----------------------javascript for toggle menu ------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+
+    </body>
+</html>
